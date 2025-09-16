@@ -1,0 +1,60 @@
+# --- Logs & diagnostics ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# --- Build outputs ---
+dist
+dist-ssr
+*.local
+
+# --- Vite & tool caches ---
+.vite
+vite.svg      # generated dev icon (optional)
+.cache
+.parcel-cache
+.turbo
+coverage
+
+# --- Node ---
+node_modules/
+
+# --- Env / secrets (NEVER commit) ---
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Editors & OS files ---
+# VS Code: keep settings if you really want to share; most teams ignore the folder.
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.sw?
+
+# --- Testing / E2E artifacts ---
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# --- Framework hosts (optional) ---
+.vercel
+.netlify
